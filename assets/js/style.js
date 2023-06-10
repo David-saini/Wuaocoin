@@ -86,7 +86,7 @@ $('.myslider-2').slick({
     dots: false,
     infinite: true,
     autoplay: true,
-    speed: 200,
+    speed: 300,
     slidesToShow: 6,
     slidesToScroll: 1,
     responsive: [
