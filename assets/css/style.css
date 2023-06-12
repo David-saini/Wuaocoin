@@ -638,7 +638,8 @@
         justify-content: space-between;
         flex-direction: column;
         z-index: 3;
-
+        position: fixed;
+        right: 20px;
 
     }
 
@@ -878,6 +879,23 @@
         top: 30%;
         left: 30%;
         transform: tr anslate(-50% -50%) !important;
+    }
+
+    .col_12 {
+        width: 100%;
+        padding-right: 12px;
+        padding-left: 12px;
+    }
+
+    .xs-screen {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .mt-20 {
+        margin-top: 20px;
     }
 
     .w-125px {
